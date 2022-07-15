@@ -214,7 +214,7 @@ function printDiv(divName) {
   
   var printContents = document.getElementById(divName).innerHTML;
   var originalContents = document.body.innerHTML;
-
+  document.body.style.fontSize = "3em"
   document.body.innerHTML = printContents;
 
   window.print();

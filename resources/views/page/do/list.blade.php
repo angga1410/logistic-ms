@@ -84,7 +84,7 @@ table tr td:first-child::before {
                
               
                   <option value="5">Take Down</option>
-                  <option value="0">Re-process</option>
+                  <option value="0">Re-create</option>
                
                 </select>
             </div>
